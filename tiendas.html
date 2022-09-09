@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YaMiPc</title>
+    <link rel="shortcut icon" href="./imagen/logo.ico">
+
+    <script defer src="./components/header.js"></script>
+    <link rel="stylesheet" href="./components/header.css" />
+    <script defer src="./components/footer.js"></script>
+    <link rel="stylesheet" href="./components/footer.css" />
+        
+    <script defer src="./pages/tiendas.js"></script>
+    <link rel="stylesheet" href="./pages/tiendas.css" />
+
+  </head>
+  <body>
+      <section id="header-container"></section>  
+
+      <section id="porfolio-container">
+        <div class="porfolio">
+          <h2 class="porfolio-title">TIENDAS</h2>
+          <div class="div porfolio-descrition">vista nuestros locales !!!</div>
+          <div class="porfolio-content"></div>
+        </div>
+      </section>
+        <template id="porfolio-container-template">
+          <div class="porfolio-card">
+            <img class="porfolio-img" src="./imagen/reparacion.png" alt="">
+            <div class="porfolio-card-content">
+              <h4 class="porfolio-card-title"></h4>
+              <p class="porfolio-card-text"></p>
+              <p class="porfolio-card-text-max"></p>
+            </div>
+          </div>
+      </template>
+
+      <section id="footer-container"></section>
+
+  </body>
+</html>

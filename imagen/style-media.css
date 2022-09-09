@@ -1,0 +1,47 @@
+@media (max-width: 800px) {
+ /* 
+PRIMERA PARTE INCLUYE
+HEADER : LOGO Y MENU */
+ .header-menu {display: none;}
+ .header-menu-small{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+    align-items: center;
+    color: #ec278f;
+    font-size: 50px;cursor: pointer;}
+/* 
+SEGUNDA PARTE INCLUYE
+CONTENIDO : TIENDA UBICACION   */
+ .contenido{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;}
+ .contenido h1,p{
+   margin: 15px;
+   font-size: 20px;
+ }
+ .contenido img{
+    width:90vw;
+    border-radius: 10px;}
+/* 
+SEGUNDA PARTE INCLUYE
+CONTENIDO : TIENDA UBICACION   */
+ .ubicacion img{
+    display: none;}
+ .ubicacion{
+    display: grid;
+    grid-template-columns: 1fr;}
+ .ubicacion h1{ font-size: 22px;}   
+ .ubicacion p{ font-size: 14px;}   
+/* 
+TERCERA PARTE INCLUYE
+CONTENIDO : SERVICIO  */
+ .servicios .modulo{
+    width: 100%;text-align: center;}  
+    .servicios .modulo img{
+        width: 15%;} 
+ .contacto h1{text-align: start;margin: 15px 0px;}       
+}
+    
